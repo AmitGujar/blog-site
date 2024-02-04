@@ -25,7 +25,7 @@ app.listen(3000, function () {
 // APP CONFIG
 mongoose
   .connect(
-    "mongodb+srv://amit:amit1234@cluster0.vco4cwh.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://test:test@primary.y5bpn72.mongodb.net/?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
